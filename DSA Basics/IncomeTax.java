@@ -4,7 +4,7 @@ class IncomTax{
         Scanner sc=new Scanner(System.in);
         System.out.print("Income:");
         int a=sc.nextInt();
-System.out.print("amount at which 20% taxes are compulsory:");
+        System.out.print("amount at which 20% taxes are compulsory:");
         int b=sc.nextInt();
         System.out.print("amount at which 30% taxes are compulsory");
         int c=sc.nextInt();
@@ -16,4 +16,5 @@ System.out.print("amount at which 20% taxes are compulsory:");
             System.out.println("30% taxes are: "+(a/100)*30);
         }
     }
+
 }
